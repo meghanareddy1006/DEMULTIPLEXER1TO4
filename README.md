@@ -1,9 +1,9 @@
 # DEMULTIPLEXER1TO4
-AIM
+#AIM
 To simulate and synthesis DEMULTIPLEXER 1 TO 4 using Vivado software
-SOFTWARE REQUIRED
+#SOFTWARE REQUIRED
 Vivado 2023.1 software.
-PROCEDURE
+#PROCEDURE
 STEP:1 Start the Xilinx navigator, Select and Name the New project.
 
 STEP:2 Select the device family, device, package and speed.
@@ -27,7 +27,7 @@ STEP:10 Double click on the Implement Design and double click on the Generate Pr
 STEP:11 Load the Bit file into the SPARTAN 6 FPGA
 
 STEP:12 On the board, by giving required input, the LEDs starts to glow light, indicating the output.
-PROGRAM
+#PROGRAM
 ```
 module demux(y0,y1,y2,y3,s1,s0,I);
  input I,s0,s1;
@@ -49,8 +49,8 @@ module demux(y0,y1,y2,y3,s1,s0,I);
 ![image](https://github.com/RESMIRNAIR/DEMULTIPLEXER1TO4/assets/154305926/f48cc07d-c76f-4d1c-8907-11e99711b751)
 ![image](https://github.com/RESMIRNAIR/DEMULTIPLEXER1TO4/assets/154305926/a3075cf9-55ba-4478-b20c-c7128badef04)
 ![image](https://github.com/RESMIRNAIR/DEMULTIPLEXER1TO4/assets/154305926/e07386db-69b3-4a5f-945f-b38929b801ea)
-OUTPUT
+#OUTPUT
 ![image](https://github.com/meghanareddy1006/DEMULTIPLEXER1TO4/assets/163811142/990d1809-d4d6-4338-84a9-7e278799c599)
-RESULT
+#RESULT
 Thus the simulate and synthesis of DEMULTIPLEXER 1 TO 4 is verified successfully by using Vivado software.
 
